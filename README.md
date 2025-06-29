@@ -26,7 +26,14 @@ yarn dev
 
 You can access the frontend at `http://localhost:4000`
 
-Alternatively you can also run the script `start.sh` from the main folder. Just remember to fix fix the permissions to allow the script to run.
+Alternatively, scripts are also provided to start the project from the main folder.
+You will need to run `install-packages.sh` script once before running the project.
+Then run the scripts `start-backend.sh` & `start-frontnend.sh` in separate terminals.
+
+
+Just remember to fix fix the permissions to allow the scripts to run.
 ```
-chmod +x start.sh
+chmod +x install packages.sh
+chmod +x start-backend.sh
+chmod +x start-frontned.sh
 ```
